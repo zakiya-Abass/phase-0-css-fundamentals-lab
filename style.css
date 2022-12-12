@@ -3,3 +3,52 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  color: red;
+  text-align: center;
+}
+figure>img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+nav {
+  background-color:grey;
+  color:black;
+    text-align: center;
+    position: relative;
+    padding: 10px 10px;
+
+}
+a{
+color: rgb(139, 0, 109);
+  padding: 10px 10px;
+
+}
+a:hover {
+  color: bisque;
+}
+a:visited{
+  color: red;
+}
+
+figcaption {
+  text-align: center;
+  font-size: medium;
+
+}
+
+#featured-property p{
+  text-align:justify;
+  font-size: medium;
+
+}
+
+#details div{
+  float: left;
+  color:white;
+  background-color: black;
+text-align: center;
+width: 25%;
+}
